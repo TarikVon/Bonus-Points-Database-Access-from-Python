@@ -30,9 +30,17 @@ pip install psycopg2
 pip install psycopg2-binary
 ```
 
-Of course, we have also attached the development environment of the project to this folder (./envs), and you can activate this environment to run the program:
+Of course, we have also publish the virtual environment of the project on Github: [BONUS_Example_Group_W](https://github.com/TarikVon/Bonus-Points-Database-Access-from-Python).
+If you encounter any issues with the module environment, please run the command to clone our entire environment locally:
 
 ```bash
+git clone https://github.com/TarikVon/Bonus-Points-Database-Access-from-Python.git
+```
+
+And you can activate this environment to run the program:
+
+```bash
+cd /path/to/the/project/
 conda activate ./envs/
 python main.py
 ```
