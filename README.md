@@ -7,6 +7,21 @@ Bonus Points: Database Access from a Programming Language
 > For any inquiries or issues, please feel free to contact me at `320220940211@lzu.edu.cn`.
 > Thank you for the patient correction and guidance throughout this assignment and the entire INFO-210 Course!
 
+## Attention
+
+If there is a prompt when running the program:
+
+```bash
+Unable to connect to the database. Error: connection to server at "47.236.6.228", port 5432 failed: Connection refused (0x0000274D/10061)
+Is the server running on that host and accepting TCP/IP connections?
+```
+
+Please try again every few hours:
+
+> After we opened our server data port `5432` to the public network, due to my use of insecure weak passwords, the server was subjected to port scanning and weak password explosion, and a mining Trojan virus was implanted using a major security vulnerability in `Postgres`. Therefore, when you are unable to connect to our database, it means that I am urgently cleaning and repairing it~
+
+I need to inform you that the recent security issues can only be stopped if I reset my password. This will mean a permanent disconnection from the server for you. I apologize for any inconvenience, and I appreciate your patience as we work towards a safer usage experience.
+
 ## Introduction
 
 This is a simple command-line tool written in Python for querying a PostgreSQL database using Psycopg2. It provides a basic interface for users to run SQL queries, retrieve data from a specified table, and exit the program.
