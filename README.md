@@ -57,7 +57,7 @@ And you can activate this environment to run the program:
 
 ```bash
 cd /path/to/the/project/
-conda activate ./envs/
+./envs/Scripts/activate
 python main.py
 ```
 
